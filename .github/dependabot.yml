@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package-ecosystem: "devcontainers"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      dev-container-features:
+        patterns:
+          - "*"
